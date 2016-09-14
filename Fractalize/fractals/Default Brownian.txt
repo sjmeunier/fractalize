@@ -1,0 +1,9 @@
+Type:		Brownian
+Width:		600
+Height:		500
+Mu:		0.0
+Sigma:		1.0
+h:		0.87
+Scale:		80
+Seed:		3456
+Color:		255,0,0

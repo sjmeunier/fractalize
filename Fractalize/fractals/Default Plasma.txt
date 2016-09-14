@@ -1,0 +1,5 @@
+Type:		Plasma
+Width:		800
+Height:		500
+Roughness:		3
+Type:		Plasma

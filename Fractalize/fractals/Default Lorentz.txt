@@ -1,0 +1,4 @@
+Type:		Lorentz
+Width:		600
+Height:		500
+Dimensions:	2

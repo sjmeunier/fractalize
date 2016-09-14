@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fractalize", "Fractalize\Fractalize.csproj", "{1C80DC88-3C3A-4148-BAAA-809246E4B12C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtilLib", "UtilLib\UtilLib.csproj", "{E18D029F-0ECE-40CF-805B-DE7FF3CDF02B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathLib", "MathLib\MathLib.csproj", "{1CF1EAF5-ECB4-4924-9396-E20ED0ECD1B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FractalDraw", "FractalDraw\FractalDraw.csproj", "{189C888B-1678-4AE9-AC07-C4E987BDFB41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C80DC88-3C3A-4148-BAAA-809246E4B12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C80DC88-3C3A-4148-BAAA-809246E4B12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C80DC88-3C3A-4148-BAAA-809246E4B12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C80DC88-3C3A-4148-BAAA-809246E4B12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E18D029F-0ECE-40CF-805B-DE7FF3CDF02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E18D029F-0ECE-40CF-805B-DE7FF3CDF02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E18D029F-0ECE-40CF-805B-DE7FF3CDF02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E18D029F-0ECE-40CF-805B-DE7FF3CDF02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CF1EAF5-ECB4-4924-9396-E20ED0ECD1B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CF1EAF5-ECB4-4924-9396-E20ED0ECD1B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CF1EAF5-ECB4-4924-9396-E20ED0ECD1B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CF1EAF5-ECB4-4924-9396-E20ED0ECD1B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189C888B-1678-4AE9-AC07-C4E987BDFB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189C888B-1678-4AE9-AC07-C4E987BDFB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189C888B-1678-4AE9-AC07-C4E987BDFB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189C888B-1678-4AE9-AC07-C4E987BDFB41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+Type:		Julia
+Width:		700
+Height:		500
+Power1:		2
+Power2:		0
+Iterations:		150
+Scaling:		1
+Size:		200
+Left:		0
+Top:		0
+Lamda Real:	1.1
+Lamda Im:		0
+XOffset:		0.0
+YOffset:		0.0

@@ -1,0 +1,5 @@
+Type:		TSquare
+Width:		500
+Height:		500
+Iterations:		5
+Color:		255,255,255

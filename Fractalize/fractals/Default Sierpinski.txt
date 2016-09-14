@@ -1,0 +1,6 @@
+Type:		Sierpinski
+Width:		500
+Height:		500
+Shape:		Triangle
+Iterations:		4
+Color:		255,0,0

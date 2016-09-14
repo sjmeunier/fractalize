@@ -1,0 +1,9 @@
+Type:		NewtonRhapson
+Width:		500
+Height:		500
+Iterations:		150
+Size:		4
+XMax:		3.5
+XMin:		-3.5
+YMax:		2.5
+YMin:		-2.5

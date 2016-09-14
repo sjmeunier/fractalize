@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{189C888B-1678-4AE9-AC07-C4E987BDFB41}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FractalDraw</RootNamespace>
+    <AssemblyName>FractalDraw</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bifurcation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Bifurcation.Designer.cs">
+      <DependentUpon>Bifurcation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Brownian.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Brownian.Designer.cs">
+      <DependentUpon>Brownian.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Fern.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Fern.Designer.cs">
+      <DependentUpon>Fern.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Julia.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Julia.Designer.cs">
+      <DependentUpon>Julia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Koch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Koch.Designer.cs">
+      <DependentUpon>Koch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lorentz.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Lorentz.Designer.cs">
+      <DependentUpon>Lorentz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mandelbrot.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mandelbrot.Designer.cs">
+      <DependentUpon>Mandelbrot.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NewtonRhapson.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="NewtonRhapson.Designer.cs">
+      <DependentUpon>NewtonRhapson.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NumericTextBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plasma.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Plasma.Designer.cs">
+      <DependentUpon>Plasma.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sierpinski.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sierpinski.Designer.cs">
+      <DependentUpon>Sierpinski.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TSquare.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TSquare.Designer.cs">
+      <DependentUpon>TSquare.cs</DependentUpon>
+    </Compile>
+    <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Bifurcation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Bifurcation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Brownian.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Brownian.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fern.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Fern.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Julia.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Julia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Koch.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Koch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lorentz.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Lorentz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mandelbrot.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Mandelbrot.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewtonRhapson.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NewtonRhapson.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NumericTextBox.resx">
+      <DependentUpon>NumericTextBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Plasma.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Plasma.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sierpinski.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Sierpinski.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TSquare.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>TSquare.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MathLib\MathLib.csproj">
+      <Project>{1cf1eaf5-ecb4-4924-9396-e20ed0ecd1b1}</Project>
+      <Name>MathLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UtilLib\UtilLib.csproj">
+      <Project>{e18d029f-0ece-40cf-805b-de7ff3cdf02b}</Project>
+      <Name>UtilLib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

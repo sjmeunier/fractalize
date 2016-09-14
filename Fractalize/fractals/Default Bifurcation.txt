@@ -1,0 +1,6 @@
+Type:		Bifurcation
+Width:		800
+Height:		500
+r:		0.95
+Delta r:		0.005
+Color:		255,0,0
