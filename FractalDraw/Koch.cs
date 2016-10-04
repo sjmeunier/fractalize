@@ -25,9 +25,9 @@ namespace FractalDraw
         {
             if (iIterations > 1)
             {
-                PointF pMid = new Point(0, 0);
-                PointF pLM = new Point(0, 0);
-                PointF pRM = new Point(0, 0);
+                PointF pMid = new System.Drawing.Point(0, 0);
+                PointF pLM = new System.Drawing.Point(0, 0);
+                PointF pRM = new System.Drawing.Point(0, 0);
              
                 pMid.X = p1.X + ((p2.X - p1.X) / 2);
                 pMid.Y = p1.Y + ((p2.Y - p1.Y) / 2);

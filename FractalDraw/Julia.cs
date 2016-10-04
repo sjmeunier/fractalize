@@ -70,8 +70,8 @@ namespace FractalDraw
 				for (double j = -iHeight/2; j < iHeight/2; j++)
 				{
 					// Normalize Z and adjust for Scaling and Offset
-					Z.re = (i/((double)iInitialSize)) * Scaling + (double)iOffsetRe;
-					Z.im = (j/((double)iInitialSize)) * Scaling + (double)iOffsetIm;
+					Z.Real = (i/((double)iInitialSize)) * Scaling + (double)iOffsetRe;
+					Z.Imaginary = (j/((double)iInitialSize)) * Scaling + (double)iOffsetIm;
 
 
 					// C is the Z(0) of the formula based on the pixel position

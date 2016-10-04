@@ -91,13 +91,13 @@ namespace FractalDraw
 				for (double j = -iHeight/2; j < iHeight/2; j++)
 				{
 					// Normalize Z and adjust for Scaling and Offset
-					Z.re = (i/((double)iInitialSize)) * Scaling + (double)iOffsetRe;
-					Z.im = (j/((double)iInitialSize)) * Scaling + (double)iOffsetIm;
+					Z.Real = (i/((double)iInitialSize)) * Scaling + (double)iOffsetRe;
+					Z.Imaginary = (j/((double)iInitialSize)) * Scaling + (double)iOffsetIm;
 
 					// C is the Z(0) of the formula based on the pixel position
 					// We've also added a ManualOffset from the text boxes on the screen
-					C.re = Z.re;// + ManualOffsetX;
-					C.im = Z.im;// + ManualOffsetY;
+					C.Real = Z.Real;// + ManualOffsetX;
+					C.Imaginary = Z.Imaginary;// + ManualOffsetY;
 
 					// initialize the  interation counter
 					int iteration = 0;
