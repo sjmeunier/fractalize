@@ -96,6 +96,7 @@
     <Compile Include="FernForm.Designer.cs">
       <DependentUpon>FernForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="FileProcessing.cs" />
     <Compile Include="FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -255,10 +256,6 @@
     <ProjectReference Include="..\FractalDraw\FractalDraw.csproj">
       <Project>{189c888b-1678-4ae9-ac07-c4e987bdfb41}</Project>
       <Name>FractalDraw</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\UtilLib\UtilLib.csproj">
-      <Project>{e18d029f-0ece-40cf-805b-de7ff3cdf02b}</Project>
-      <Name>UtilLib</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

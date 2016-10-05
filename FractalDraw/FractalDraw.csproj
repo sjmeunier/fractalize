@@ -190,12 +190,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\UtilLib\UtilLib.csproj">
-      <Project>{e18d029f-0ece-40cf-805b-de7ff3cdf02b}</Project>
-      <Name>UtilLib</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
       <Visible>False</Visible>
       <ProductName>.NET Framework 3.5 SP1</ProductName>

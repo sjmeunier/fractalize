@@ -1,11 +1,9 @@
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.IO;
 
-namespace UtilLib
+namespace Fractalize
 {
-    class FileLib
+    class FileProcessing
     {
         public string ReadTextFile(string path)
         {

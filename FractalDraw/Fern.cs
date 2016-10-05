@@ -5,7 +5,6 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
-using UtilLib;
 
 namespace FractalDraw
 {
@@ -24,7 +23,7 @@ namespace FractalDraw
 
         public void GenerateFern(Graphics g, int iIterations, double dStartX, double dStartY, double dScale, double[] dA, double[] dB, double[] dC, double[] dD, int[] iRand, Color oColor)
         {
-            FastRandom rnd = new FastRandom();
+            Random rnd = new Random();
             int iRandNum;
             double dX = 0;
             double dY = 0;

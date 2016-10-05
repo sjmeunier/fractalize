@@ -5,7 +5,6 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
-using UtilLib;
 
 namespace FractalDraw
 {
@@ -15,7 +14,7 @@ namespace FractalDraw
 
         public double gRoughness;
         public double gBigSize;
-        FastRandom rnd;
+        Random rnd;
 
         public Plasma()
         {
@@ -25,7 +24,7 @@ namespace FractalDraw
 
         private void Plasma_Load(object sender, EventArgs e)
         {
-            rnd = new FastRandom();       
+            rnd = new Random();       
         }
 
         public void DrawPlasma(double iRoughness, string plasmaType)
